@@ -25,8 +25,9 @@ import (
 
 func RunSample() {
 	ain_common.PrintExampleTitle(
-		"Пример работы с оператором 'if'",
-		"Example of using 'if' statement", "https://allineed.ru/development/go-development/60-go-using-if-statement")
+		"Используем условный оператор if в Go",
+		"Using conditional operator if in Go",
+		"https://allineed.ru/development/go-development/60-go-using-if-statement")
 
 	ain_common.PrintlnLocalized(
 		"1) Демонстрация константных выражений в операторе 'if':",
