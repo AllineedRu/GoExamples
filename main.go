@@ -26,8 +26,10 @@ func main() {
 	// [EN] Set the language for all the examples (ru = Russian; en = English)
 	ain_common.Language = "ru"
 
-	// [RU] Запуск примера из статьи ...
-	// [EN] Running example from the article
+	// [RU] Запуск примера из статьи "Используем условный оператор if в Go"
+	// [RU] Ссылка на статью: https://allineed.ru/development/go-development/60-go-using-if-statement
+	// [EN] Running example from the article "Using conditional operator if in Go"
+	// [EN] Link to the article: https://allineed.ru/development/go-development/60-go-using-if-statement
 	ain_if_statements.RunSample()
 
 	// [RU] Запуск примера из статьи "Создаём файл на языке Go и пишем в него данные"

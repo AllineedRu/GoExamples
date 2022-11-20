@@ -1,8 +1,8 @@
 /*
 [RU] Модуль содержит пример кода на языке Go из статьи
-TODO: добавить ссылку на статью
+https://allineed.ru/development/go-development/60-go-using-if-statement
 [EN] Module contains the sample Go code from the article
-TODO: add link to the article
+https://allineed.ru/development/go-development/60-go-using-if-statement
 
 This program is free software: you can redistribute it and/or modify it under
 the terms of the GNU General Public License as published by the Free Software
@@ -26,7 +26,7 @@ import (
 func RunSample() {
 	ain_common.PrintExampleTitle(
 		"Пример работы с оператором 'if'",
-		"Example of using 'if' statement", "< TO BE DONE >") //TODO: добавить ссылку на статью
+		"Example of using 'if' statement", "https://allineed.ru/development/go-development/60-go-using-if-statement")
 
 	ain_common.PrintlnLocalized(
 		"1) Демонстрация константных выражений в операторе 'if':",
@@ -52,8 +52,8 @@ func RunSample() {
 			ain_common.NewLocalizedStrings(strconv.Itoa(x), " less than 0"))
 	} else {
 		ain_common.PrintlnLocalizedStringsWithTab(
-			ain_common.NewLocalizedStrings(strconv.Itoa(x), " больше 0 и меньше или равен 10"),
-			ain_common.NewLocalizedStrings(strconv.Itoa(x), " is greater 0 and less or equal 10"))
+			ain_common.NewLocalizedStrings(strconv.Itoa(x), " больше или равен 0 и меньше или равен 10"),
+			ain_common.NewLocalizedStrings(strconv.Itoa(x), " is greater or equal 0 and less or equal 10"))
 	}
 
 	ain_common.PrintlnLocalized(
