@@ -17,6 +17,7 @@ package main
 
 import (
 	"allineed.ru/x/examples/ain_common"
+	"allineed.ru/x/examples/ain_for_loop"
 	"allineed.ru/x/examples/ain_if_statements"
 	"allineed.ru/x/examples/ain_writing_to_file"
 )
@@ -39,4 +40,10 @@ func main() {
 	// [EN] Link to the article: https://allineed.ru/development/go-development/57-go-create-file-and-write-data
 	// [EN] In the input argument for the RunSample() function specify the full path where to 'mygofile.txt' should be created
 	ain_writing_to_file.RunSample("C:\\Users\\1\\mygofile.txt")
+
+	// [RU] Запуск примера из статьи "Цикл for в языке Go"
+	// [RU] Ссылка на статью: https://allineed.ru/development/go-development/61-go-using-for-loop
+	// [EN] Running example from the article "for loop in Go"
+	// [EN] Link to the article: https://allineed.ru/development/go-development/61-go-using-for-loop
+	ain_for_loop.RunSample()
 }
