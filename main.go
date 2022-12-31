@@ -19,6 +19,7 @@ import (
 	"allineed.ru/x/examples/ain_common"
 	"allineed.ru/x/examples/ain_for_loop"
 	"allineed.ru/x/examples/ain_if_statements"
+	"allineed.ru/x/examples/ain_variables"
 	"allineed.ru/x/examples/ain_writing_to_file"
 )
 
@@ -46,4 +47,10 @@ func main() {
 	// [EN] Running example from the article "for loop in Go"
 	// [EN] Link to the article: https://allineed.ru/development/go-development/61-go-using-for-loop
 	ain_for_loop.RunSample()
+
+	// [RU] Запуск примера из статьи "Переменные в языке Go"
+	// [RU] Ссылка на статью: https://allineed.ru/development/go-development/68-go-variables
+	// [EN] Running example from the article "Variables in Go"
+	// [EN] Link to the article: https://allineed.ru/development/go-development/68-go-variables
+	ain_variables.RunSample()
 }
