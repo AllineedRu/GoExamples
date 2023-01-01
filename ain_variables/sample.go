@@ -1,8 +1,8 @@
 /*
 [RU] Модуль содержит пример кода на языке Go из статьи
-TBD
+https://allineed.ru/development/go-development/68-go-variables
 [EN] Module contains the sample Go code from the article
-TBD
+https://allineed.ru/development/go-development/68-go-variables
 
 This program is free software: you can redistribute it and/or modify it under
 the terms of the GNU General Public License as published by the Free Software
